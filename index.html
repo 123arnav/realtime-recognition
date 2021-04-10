@@ -1,0 +1,56 @@
+<html>
+
+<head>
+  <title>Realtime Image Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+<script src="main.js"></script>
+<center>
+  <div id="header" class="btn btn-info">
+    <h2>Realtime image identify</h2>
+    <hr>
+
+    <div class="btn btn-default header2">
+<h3>Model is trained on</h2>
+    
+<div class="btn btn-info header3">
+<h5>Phone|Spoon|Waterbottle|Watch</h5>
+</div>
+    </div>
+   
+
+  </div>
+  <br>
+  <br>
+  <span class="btn btn-info object">
+    <h5>Object:</h5>
+    <h5 id="object"></h5>
+  </span>
+  <br>
+  <br>
+  <span class="btn btn-info object">
+    <h5>Accuracy</h5>
+    <h4 id="accuracy"></h5>
+  </span>
+  
+</center>
+<div id="footlocker">
+developed by Arnav Bansal
+</div>
+</body>
+
+</html>
+
+
